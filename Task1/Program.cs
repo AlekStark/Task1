@@ -20,7 +20,7 @@ class Program
     }
 
     /// <summary>
-    /// - Метод SelectMany собирает все элементы вложенной коллекции (Students) в одну последовательность и возвращаем массив
+    /// Метод SelectMany собирает все элементы вложенной коллекции (Students) в одну последовательность и возвращаем массив
     /// </summary>
     /// <param name="classes"></param>
     /// <returns></returns>
