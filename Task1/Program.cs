@@ -19,9 +19,14 @@ class Program
         Console.WriteLine(string.Join(" ", allStudents));
     }
 
+    /// <summary>
+    /// - Метод SelectMany собирает все элементы вложенной коллекции (Students) в одну последовательность и возвращаем массив
+    /// </summary>
+    /// <param name="classes"></param>
+    /// <returns></returns>
     static string[] GetAllStudents(Classroom[] classes)
     {
-        return classes.SelectMany(classroom => classroom.Students).ToArray();
+        return classes.SelectMany(classroom => classroom.Students).ToArray(); 
     }
 
     public class Classroom
